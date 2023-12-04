@@ -16,6 +16,10 @@
 		2CC93DCC2B19FC83000FCFF4 /* HackNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DCB2B19FC83000FCFF4 /* HackNewsTests.swift */; };
 		2CC93DD62B19FC83000FCFF4 /* HackNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DD52B19FC83000FCFF4 /* HackNewsUITests.swift */; };
 		2CC93DD82B19FC83000FCFF4 /* HackNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DD72B19FC83000FCFF4 /* HackNewsUITestsLaunchTests.swift */; };
+		2CC93DE52B19FC9B000FCFF4 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DE42B19FC9B000FCFF4 /* NewsTableViewController.swift */; };
+		2CC93DE82B1A026B000FCFF4 /* HackNewsAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DE72B1A026B000FCFF4 /* HackNewsAPIManager.swift */; };
+		2CC93DED2B1C0A95000FCFF4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DEC2B1C0A95000FCFF4 /* Constants.swift */; };
+		2CC93DF02B1C2068000FCFF4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DEF2B1C2068000FCFF4 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		2CC93DD12B19FC83000FCFF4 /* HackNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC93DD52B19FC83000FCFF4 /* HackNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNewsUITests.swift; sourceTree = "<group>"; };
 		2CC93DD72B19FC83000FCFF4 /* HackNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2CC93DE42B19FC9B000FCFF4 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		2CC93DE72B1A026B000FCFF4 /* HackNewsAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNewsAPIManager.swift; sourceTree = "<group>"; };
+		2CC93DEC2B1C0A95000FCFF4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2CC93DEF2B1C2068000FCFF4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,13 @@
 		2CC93DB32B19FC82000FCFF4 /* HackNews */ = {
 			isa = PBXGroup;
 			children = (
+				2CC93DEE2B1C204E000FCFF4 /* Extensions */,
+				2CC93DEB2B1C0A5E000FCFF4 /* Constants */,
+				2CC93DE62B19FF0B000FCFF4 /* API */,
 				2CC93DB42B19FC82000FCFF4 /* AppDelegate.swift */,
 				2CC93DB62B19FC82000FCFF4 /* SceneDelegate.swift */,
 				2CC93DB82B19FC82000FCFF4 /* ViewController.swift */,
+				2CC93DE42B19FC9B000FCFF4 /* NewsTableViewController.swift */,
 				2CC93DBA2B19FC82000FCFF4 /* Main.storyboard */,
 				2CC93DBD2B19FC83000FCFF4 /* Assets.xcassets */,
 				2CC93DBF2B19FC83000FCFF4 /* LaunchScreen.storyboard */,
@@ -125,6 +137,30 @@
 				2CC93DD72B19FC83000FCFF4 /* HackNewsUITestsLaunchTests.swift */,
 			);
 			path = HackNewsUITests;
+			sourceTree = "<group>";
+		};
+		2CC93DE62B19FF0B000FCFF4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2CC93DE72B1A026B000FCFF4 /* HackNewsAPIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2CC93DEB2B1C0A5E000FCFF4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2CC93DEC2B1C0A95000FCFF4 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2CC93DEE2B1C204E000FCFF4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2CC93DEF2B1C2068000FCFF4 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC93DE52B19FC9B000FCFF4 /* NewsTableViewController.swift in Sources */,
+				2CC93DE82B1A026B000FCFF4 /* HackNewsAPIManager.swift in Sources */,
 				2CC93DB92B19FC82000FCFF4 /* ViewController.swift in Sources */,
 				2CC93DB52B19FC82000FCFF4 /* AppDelegate.swift in Sources */,
 				2CC93DB72B19FC82000FCFF4 /* SceneDelegate.swift in Sources */,
+				2CC93DED2B1C0A95000FCFF4 /* Constants.swift in Sources */,
+				2CC93DF02B1C2068000FCFF4 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
