@@ -19,7 +19,14 @@ class HackNewsAPIManager {
         case best
     }
 
+    // Initial open Top news
     var currentStoryType: StoryType = .top
+
+    var networkSession: NetworkSession
+
+    init(networkSession: NetworkSession = URLSession.shared) {
+        self.networkSession = networkSession
+    }
 
     
     func downloadStoriesByType(completion: @escaping ([Story]) -> Void) {
@@ -36,7 +43,7 @@ class HackNewsAPIManager {
 
         guard let url = URL(string: urlString) else { return }
 
-        URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
+        networkSession.dataTask(with: url) { [weak self] data, _, error in
             if let data = data, var ids = try? JSONDecoder().decode([Int].self, from: data) {
                 //descending sort, in case it's wrong on server side
                 ids.sort(by: >)
@@ -72,7 +79,7 @@ class HackNewsAPIManager {
                 continue
             }
 
-            URLSession.shared.dataTask(with: url) { data, _, error in
+            networkSession.dataTask(with: url) { data, _, error in
                 defer { group.leave() }
                 if let data = data, let story = try? JSONDecoder().decode(Story.self, from: data) {
                     batchStories.append(story)

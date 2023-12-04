@@ -13,13 +13,16 @@
 		2CC93DBC2B19FC82000FCFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC93DBA2B19FC82000FCFF4 /* Main.storyboard */; };
 		2CC93DBE2B19FC83000FCFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC93DBD2B19FC83000FCFF4 /* Assets.xcassets */; };
 		2CC93DC12B19FC83000FCFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC93DBF2B19FC83000FCFF4 /* LaunchScreen.storyboard */; };
-		2CC93DCC2B19FC83000FCFF4 /* HackNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DCB2B19FC83000FCFF4 /* HackNewsTests.swift */; };
 		2CC93DD62B19FC83000FCFF4 /* HackNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DD52B19FC83000FCFF4 /* HackNewsUITests.swift */; };
 		2CC93DD82B19FC83000FCFF4 /* HackNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DD72B19FC83000FCFF4 /* HackNewsUITestsLaunchTests.swift */; };
 		2CC93DE52B19FC9B000FCFF4 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DE42B19FC9B000FCFF4 /* NewsTableViewController.swift */; };
 		2CC93DE82B1A026B000FCFF4 /* HackNewsAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DE72B1A026B000FCFF4 /* HackNewsAPIManager.swift */; };
 		2CC93DED2B1C0A95000FCFF4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DEC2B1C0A95000FCFF4 /* Constants.swift */; };
 		2CC93DF02B1C2068000FCFF4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC93DEF2B1C2068000FCFF4 /* Extensions.swift */; };
+		2CF857D02B1D9B5A00DC4640 /* HackNewsAPIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF857CF2B1D9B5A00DC4640 /* HackNewsAPIManagerTests.swift */; };
+		2CF857D22B1D9BBB00DC4640 /* NetworkSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF857D12B1D9BBB00DC4640 /* NetworkSessionProtocol.swift */; };
+		2CF857D42B1D9EEF00DC4640 /* mockStories.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CF857D32B1D9EEF00DC4640 /* mockStories.json */; };
+		2CF857D62B1DB36800DC4640 /* NewsTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF857D52B1DB36800DC4640 /* NewsTableViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +52,6 @@
 		2CC93DC02B19FC83000FCFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CC93DC22B19FC83000FCFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC93DC72B19FC83000FCFF4 /* HackNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CC93DCB2B19FC83000FCFF4 /* HackNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNewsTests.swift; sourceTree = "<group>"; };
 		2CC93DD12B19FC83000FCFF4 /* HackNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC93DD52B19FC83000FCFF4 /* HackNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNewsUITests.swift; sourceTree = "<group>"; };
 		2CC93DD72B19FC83000FCFF4 /* HackNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -57,6 +59,10 @@
 		2CC93DE72B1A026B000FCFF4 /* HackNewsAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNewsAPIManager.swift; sourceTree = "<group>"; };
 		2CC93DEC2B1C0A95000FCFF4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2CC93DEF2B1C2068000FCFF4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2CF857CF2B1D9B5A00DC4640 /* HackNewsAPIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNewsAPIManagerTests.swift; sourceTree = "<group>"; };
+		2CF857D12B1D9BBB00DC4640 /* NetworkSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionProtocol.swift; sourceTree = "<group>"; };
+		2CF857D32B1D9EEF00DC4640 /* mockStories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockStories.json; sourceTree = "<group>"; };
+		2CF857D52B1DB36800DC4640 /* NewsTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +131,9 @@
 		2CC93DCA2B19FC83000FCFF4 /* HackNewsTests */ = {
 			isa = PBXGroup;
 			children = (
-				2CC93DCB2B19FC83000FCFF4 /* HackNewsTests.swift */,
+				2CF857CF2B1D9B5A00DC4640 /* HackNewsAPIManagerTests.swift */,
+				2CF857D32B1D9EEF00DC4640 /* mockStories.json */,
+				2CF857D52B1DB36800DC4640 /* NewsTableViewControllerTests.swift */,
 			);
 			path = HackNewsTests;
 			sourceTree = "<group>";
@@ -143,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				2CC93DE72B1A026B000FCFF4 /* HackNewsAPIManager.swift */,
+				2CF857D12B1D9BBB00DC4640 /* NetworkSessionProtocol.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -277,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF857D42B1D9EEF00DC4640 /* mockStories.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +311,7 @@
 				2CC93DB72B19FC82000FCFF4 /* SceneDelegate.swift in Sources */,
 				2CC93DED2B1C0A95000FCFF4 /* Constants.swift in Sources */,
 				2CC93DF02B1C2068000FCFF4 /* Extensions.swift in Sources */,
+				2CF857D22B1D9BBB00DC4640 /* NetworkSessionProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +319,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CC93DCC2B19FC83000FCFF4 /* HackNewsTests.swift in Sources */,
+				2CF857D02B1D9B5A00DC4640 /* HackNewsAPIManagerTests.swift in Sources */,
+				2CF857D62B1DB36800DC4640 /* NewsTableViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

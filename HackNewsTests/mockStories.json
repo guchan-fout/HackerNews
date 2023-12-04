@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Story Title 1",
+        "url": "https://example.com/story1",
+        "time": 1234567890
+    },
+    {
+        "id": 2,
+        "title": "Story Title 2",
+        "url": "https://example.com/story2",
+        "time": 1234567891
+    }
+]

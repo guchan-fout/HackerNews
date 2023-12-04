@@ -11,7 +11,7 @@ import SafariServices
 class NewsTableViewController: UITableViewController {
 
     var stories = [Story]()
-    let hackNewsAPIManager = HackNewsAPIManager()
+    var hackNewsAPIManager = HackNewsAPIManager()
     var activityIndicatorView: UIActivityIndicatorView!
 
     var isLoading = false
